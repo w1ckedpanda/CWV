@@ -19,6 +19,7 @@ errors get reported in  /report/err-{date}-{domain}.txt
 job log is stored at /log.txt
 
 
+To make the script working, you should store it in one directory with the domains.txt file, and run it from terminal, or powershell
 
 to give some more context - its not possible to know the URLs which will be in CrUX, so the approach to query all urls in the sitemap was taken.
 also - as the urls in the CrUX report are changing - pages that were listed one day, might not be there the next day, so recommended approach is to run the job from start every time the job is commencing
